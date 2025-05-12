@@ -9,7 +9,6 @@ interface Props {
 }
 
 const PokemonDetailsCard: React.FC<Props> = ({ pokemon }) => {
-  console.log(pokemon);
   return (
     <div className="pokemon-info-card-container">
       <h2 className="pokemon-name">

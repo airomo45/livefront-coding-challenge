@@ -28,3 +28,9 @@
     width: 100%;
   }
 }
+@media (min-width: 1001px) and (max-width: 1650px) {
+    .pokemon-info-card-container {
+    /* height: 800px; */
+    width: 30%;
+  }
+}
