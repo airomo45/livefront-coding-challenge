@@ -1,0 +1,30 @@
+.pokemon-info-card-container {
+  background-color: #f4f3f3;
+  padding: 2rem;
+  height: 500px;
+}
+
+.pokemon-name {
+  font-size: 1.6rem;
+}
+
+.badge-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.info-section strong {
+  font-size: 1rem;
+}
+@media (max-width: 1000px) {
+  .badge-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .pokemon-info-card-container {
+    height: 800px;
+    width: 100%;
+  }
+}

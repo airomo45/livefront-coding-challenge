@@ -1,0 +1,13 @@
+.badge-card {
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  color: #131313;
+  text-transform: capitalize;
+  margin-right: 0.5rem;
+}
+@media (max-width: 1000px) {
+  .badge-card {
+    font-size: 1rem;
+  }
+}

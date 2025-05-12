@@ -1,0 +1,33 @@
+.nav-bar {
+  background-color: #212020;
+  color: #ffdd57;
+  padding: 1.5rem 6rem;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar a {
+  color: #fcd34d;
+  text-decoration: none;
+}
+
+.nav-logo {
+  color: #fcd34d;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-logo:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
